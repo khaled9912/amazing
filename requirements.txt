@@ -5,7 +5,7 @@ bleach==1.1.2
 dj-database-url==0.2.1
 filebrowser-safe==0.2.8
 grappelli-safe==0.2.7
-gunicorn==0.14.5
+gunicorn
 html5lib==0.95
 psycopg2==2.4.5
 pytz==2012c
