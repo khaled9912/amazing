@@ -22,7 +22,15 @@ urlpatterns = i18n_patterns(
     # admin interface, which would be marginally more secure.
     url("^admin/", include(admin.site.urls)),
 )
+####
+urlpatterns = patterns('',
+	(r'^static/(?P<path>.*)$',
+	 'django.views.static.serve',
+	 {'document_root': settings.STATIC_ROOT}),)
 
+urlpatterns += patterns("",
+	("^admin/", include(admin.site.urls)),
+                        ####
 if settings.USE_MODELTRANSLATION:
     urlpatterns += [
         url('^i18n/$', set_language, name='set_language'),
