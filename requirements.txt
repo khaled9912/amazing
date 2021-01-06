@@ -2,7 +2,7 @@ Django==1.4
 Mezzanine==1.1.4
 Pillow
 bleach==1.1.2
-distribute==0.6.24
+distribute
 dj-database-url==0.2.1
 filebrowser-safe==0.2.8
 grappelli-safe==0.2.7
