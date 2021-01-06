@@ -9,4 +9,4 @@ gunicorn
 html5lib==0.95
 psycopg2
 pytz==2012c
-wsgiref
+
